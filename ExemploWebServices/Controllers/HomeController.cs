@@ -13,6 +13,7 @@ namespace ExemploWebServices.Controllers
         {
             var github = new GitHubClient(new ProductHeaderValue("TestGitHutAPI"));
             return View();
+
         }
 
         public ActionResult About()
